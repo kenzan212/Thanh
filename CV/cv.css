@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: url("images_cv/background_main.jpg");
+    font-size: 15px;
+    line-height: 22px;
+}
+
+#main {
+    width: 850px;
+    height: 1120px;
+    margin: 50px auto;
+    background-color: rgba(136, 4, 136, 0.192);
+    border-radius: 20px;
+    border: 1px black;
+}
+
+.cv {
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: -30px auto;
+}
+
+.cv .cv_top {
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+
+.cv_image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+.information {
+    width: auto;
+    margin: 20px 50px;
+}
+
+.information .name {
+    color: white;
+    text-shadow: -3px 0 rgb(60, 255, 0);
+}
+
+.information h3 {
+    color: white;
+    text-shadow: -2px -2px black;
+    margin: 10px 0px;
+}
+
+.information .information_personal {
+    margin: -30px 0px;
+}
+
+.cvt {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    margin: -50px auto;
+    background-color: white;
+}
+
+.cvt .cv_below_center {
+    width: 4px;
+    height: 800px;
+    display: flex;
+    margin: 0px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cvt .cv_below_left {
+    width: 398px;
+    height: 800px;
+    margin: 0px 0px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.cvt .cv_below_right {
+    width: 398px;
+    height: 800px;
+    margin: 0px 0px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.cvt h2 {
+    color: rgb(40, 172, 0);
+    text-shadow: -2px -2px rgb(18, 0, 175);
+}
+
+.cvt .item {
+    width: 90%;
+    height: 40px;
+    background-color: rgba(172, 255, 47, 0.767);
+    margin: 20px auto;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.cvt .item .item1 {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto 10px;
+}
+
+.cvt .element_1 div {
+    display: inline-flex;
+}
+
+.cvt .element_1 ul li {
+    margin-left: 40px;
+    list-style: url("images_cv/tick.png");
+}
+
+.cvt .element_2 ul li {
+    margin-left: 40px;
+    list-style: url("images_cv/check-mark.png");
+}
+
+.cvt div h3 {
+    color: rgba(255, 0, 0, 0.753);
+    text-shadow: 1px 1px rgba(29, 6, 6, 0.801);
+}
+
+.cvt .element_3 ul li {
+    margin-left: 40px;
+    list-style: url("images_cv/heart.png");
+}
+
+.cvt .element_4 ul li {
+    margin-left: 40px;
+    list-style: url("images_cv/check.png");
+}
+
+.cvt .element_5 ul li {
+    margin-left: 40px;
+    list-style: url("images_cv/document.png");
+}
+
+.cvt .cv_below_right .element_4 {
+    display: flex;
+}
+
+.cvt .element_4 .left div {
+    width: 130px;
+    height: auto;
+}
+
+.cvt .element_4 .right ul li {
+    list-style: none;
+}
+
+.cvt .element_4 .right div img {
+    margin-left: 5px;
+}
+
+.cvt .element_5 ul li ul li {
+    margin-left: 20px;
+    list-style: url("images_cv/tick0.png");
+}
